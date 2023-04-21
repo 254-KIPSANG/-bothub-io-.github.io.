@@ -1,0 +1,11 @@
+{
+  "name": "ChatGPT Auto-Responder",
+  "version": "1.0",
+  "description": "Auto-responds to text in WhatsApp Web using ChatGPT API",
+  "permissions": ["activeTab", "storage", "http://localhost/*"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
